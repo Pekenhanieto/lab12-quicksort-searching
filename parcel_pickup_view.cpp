@@ -189,9 +189,9 @@ void displayReady(Parcel *view[], int count)
  * search with scanning the unsorted ready view for every query. Give worst-case
  * bounds for this quicksort, balanced-partition bounds, and iterative-search
  * auxiliary space. Distinguish the view storage from recursive-call storage.
- * Answer: Sorting once and using binary search takes $O(n \log n + q \log n)$, whereas scanning 
- * an unsorted view for every query takes $O(n \cdot q)$. Quicksort auxiliary space is $O(\log n)$ 
- * for the recursion stack in balanced partitions and $O(n)$ in the worst case. Iterative binary 
- * search requires $O(1)$ auxiliary space. The view storage itself requires $O(n)$ auxiliary pointer space, 
- * which is separate from the $O(\log n)$ call stack space used by the recursive sorting algorithm.
+ * Answer: Sorting once and using binary search takes O(n \log n + q \log n), whereas scanning 
+ * an unsorted view for every query takes . Quicksort auxiliary space is O(\log n)
+ * for the recursion stack in balanced partitions and O(n) in the worst case. Iterative binary 
+ * search requires O(1) auxiliary space. The view storage itself requires O(n) auxiliary pointer space, 
+ * which is separate from the O(\log n) call stack space used by the recursive sorting algorithm.
  */
